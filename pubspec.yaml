@@ -48,9 +48,11 @@ flutter:
     - images/i9.jpg
     - images/i10.jpg
     - images/i11.jpeg
+    - images/i12.jpg
     - images/chat.png
     - images/map.png
     - images/grocery.jpg
+    - images/list.png
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.

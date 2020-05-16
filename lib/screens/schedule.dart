@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:neighbormart/screens/house.dart';
 import 'package:nice_button/nice_button.dart';
+import 'package:neighbormart/globals.dart' as globals;
 
 class Schedule extends StatefulWidget {
   @override
@@ -40,16 +40,19 @@ class _ScheduleState extends State<Schedule> {
                       padding: const EdgeInsets.symmetric(
                           horizontal: 20, vertical: 10),
                       child: TextField(
-                        textAlign: TextAlign.center,
-                        decoration: InputDecoration(
-                            labelText: "Name of Store",
-                            hintText: "Enter the name of the store",
-                            prefixIcon: Icon(Icons.store),
-                            border: OutlineInputBorder(
-                                borderSide: BorderSide(color: Colors.grey[300]),
-                                borderRadius:
-                                    BorderRadius.all(Radius.circular(20.0)))),
-                      )),
+                          textAlign: TextAlign.center,
+                          decoration: InputDecoration(
+                              labelText: "Name of Store",
+                              hintText: "Enter the name of the store",
+                              prefixIcon: Icon(Icons.store),
+                              border: OutlineInputBorder(
+                                  borderSide:
+                                      BorderSide(color: Colors.grey[300]),
+                                  borderRadius:
+                                      BorderRadius.all(Radius.circular(20.0)))),
+                          onChanged: (text) {
+                            globals.name = text;
+                          })),
                   // question 2
                   Padding(
                       padding: const EdgeInsets.symmetric(
@@ -64,7 +67,9 @@ class _ScheduleState extends State<Schedule> {
                                 borderSide: BorderSide(color: Colors.grey[300]),
                                 borderRadius:
                                     BorderRadius.all(Radius.circular(20.0)))),
-                      )),
+                      onChanged: (text) {
+                            globals.description = text;
+                          })),
                   // question 3
                   Padding(
                       padding: const EdgeInsets.symmetric(
@@ -79,7 +84,9 @@ class _ScheduleState extends State<Schedule> {
                                 borderSide: BorderSide(color: Colors.grey[300]),
                                 borderRadius:
                                     BorderRadius.all(Radius.circular(20.0)))),
-                      )),
+                      onChanged: (text) {
+                            globals.date = text;
+                          })),
                   // question 4
                   Padding(
                       padding: const EdgeInsets.symmetric(
@@ -94,7 +101,9 @@ class _ScheduleState extends State<Schedule> {
                                 borderSide: BorderSide(color: Colors.grey[300]),
                                 borderRadius:
                                     BorderRadius.all(Radius.circular(20.0)))),
-                      )),
+                      onChanged: (text) {
+                            globals.time = text;
+                          })),
                   // question 5
                   Padding(
                     padding: const EdgeInsets.symmetric(

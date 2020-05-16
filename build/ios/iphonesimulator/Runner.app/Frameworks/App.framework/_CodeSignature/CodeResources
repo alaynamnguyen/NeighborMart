@@ -10,15 +10,15 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		ffALtdNWWMMLq773iza3e1Xlra8=
+		3M7tSuHUEh6n+VgNogtleisYvAA=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
-		lILml1/Dm8FIsisqu4EM3Kg929Q=
+		cNeRIXTuxI26OSm1K8eC2B8iYqM=
 		</data>
 		<key>flutter_assets/LICENSE</key>
 		<data>
-		E2Hn5tVvHl+Z8vwoY/pILnXzibs=
+		7r6Zf6fOL6r9Vwy0sYggRTQZvcY=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.ttf</key>
 		<data>
@@ -27,6 +27,10 @@
 		<key>flutter_assets/images/chat.png</key>
 		<data>
 		0oePxMeM9mfqegGQnVZu1fX3fGQ=
+		</data>
+		<key>flutter_assets/images/grocery.jpg</key>
+		<data>
+		Pqe2lzUfzOndXUzIpTIx2hd5AGc=
 		</data>
 		<key>flutter_assets/images/i1.jpg</key>
 		<data>
@@ -39,6 +43,10 @@
 		<key>flutter_assets/images/i11.jpeg</key>
 		<data>
 		8NAOUpn1vOmzxpvT5BVzBA3AwX0=
+		</data>
+		<key>flutter_assets/images/i12.jpg</key>
+		<data>
+		wnQU85WuRnVU1dBj8H/i3bV2/zk=
 		</data>
 		<key>flutter_assets/images/i2.jpg</key>
 		<data>
@@ -82,11 +90,15 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		NdUAsuEhB6VoUegq6zuf+ZbRk00=
+		8snAbK8+8T0hwdrdMkav0c9GyWo=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
 		TdRNbRcrlXQQgeiweLFizPmk92g=
+		</data>
+		<key>flutter_assets/packages/nice_button/fonts/Montserrat-Regular.ttf</key>
+		<data>
+		/x6102CkLAxnXY7Pypo+W3CdMCo=
 		</data>
 		<key>flutter_assets/vm_snapshot_data</key>
 		<data>
@@ -99,33 +111,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ffALtdNWWMMLq773iza3e1Xlra8=
+			3M7tSuHUEh6n+VgNogtleisYvAA=
 			</data>
 			<key>hash2</key>
 			<data>
-			vqr6ACWj9GSfbAEbBI3DTwRYkpKFbVpKi2260j5Jcsg=
+			93Ws+6TyA+8VznaveO8S+0IfSQ0TOA1jJmN41uGrUDU=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lILml1/Dm8FIsisqu4EM3Kg929Q=
+			cNeRIXTuxI26OSm1K8eC2B8iYqM=
 			</data>
 			<key>hash2</key>
 			<data>
-			YwkPE2N7k/su9XjVFpdeoUy7GFY9DEY+G4h3aEyC1dg=
+			glxLgJXJr39k4XAk0hUl7kT+/P9494nK/TAtfk8B+ds=
 			</data>
 		</dict>
 		<key>flutter_assets/LICENSE</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E2Hn5tVvHl+Z8vwoY/pILnXzibs=
+			7r6Zf6fOL6r9Vwy0sYggRTQZvcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			OTvk0om7/Kim8xaBsMjEP/0KH6C+dOvk36qoyLTwvVc=
+			kkwmORcsZxTzhm9OxEcMZdwiJDhsEl8EH5bP3WEuL28=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.ttf</key>
@@ -148,6 +160,17 @@
 			<key>hash2</key>
 			<data>
 			kBcZ3C8f5Phpa3IHYXuxFKismKd3QPbpfJoWnTSTDV4=
+			</data>
+		</dict>
+		<key>flutter_assets/images/grocery.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Pqe2lzUfzOndXUzIpTIx2hd5AGc=
+			</data>
+			<key>hash2</key>
+			<data>
+			caFRCKQNa16MARxKD+KzuSoXdWry5+VROKSBv2HnX0I=
 			</data>
 		</dict>
 		<key>flutter_assets/images/i1.jpg</key>
@@ -181,6 +204,17 @@
 			<key>hash2</key>
 			<data>
 			Lb0cuHJhHXd6mfp/XrTbOeDS/tfJmyZLWi3H6fzTFkE=
+			</data>
+		</dict>
+		<key>flutter_assets/images/i12.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wnQU85WuRnVU1dBj8H/i3bV2/zk=
+			</data>
+			<key>hash2</key>
+			<data>
+			LnKk7Z03ipqfsnFmvjVUOsJASUwxeZXNEuNTs5HOUJY=
 			</data>
 		</dict>
 		<key>flutter_assets/images/i2.jpg</key>
@@ -297,11 +331,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NdUAsuEhB6VoUegq6zuf+ZbRk00=
+			8snAbK8+8T0hwdrdMkav0c9GyWo=
 			</data>
 			<key>hash2</key>
 			<data>
-			N7T5aGlHnbNEyW7/0PlZOVOqNmJgfTFpJr9yg8xYREM=
+			gQqwukFFaV2cVPFQLFOBsqnZmdybqcxVdKOEwORgh6I=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -313,6 +347,17 @@
 			<key>hash2</key>
 			<data>
 			d6fK2iHuml40zu1xSV3HnoE9PVFhQREGOzVfduySSBY=
+			</data>
+		</dict>
+		<key>flutter_assets/packages/nice_button/fonts/Montserrat-Regular.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/x6102CkLAxnXY7Pypo+W3CdMCo=
+			</data>
+			<key>hash2</key>
+			<data>
+			gevDkWtSQAe3VtkdnfE8dnPsQBFh8srRYWYtCNzxzHI=
 			</data>
 		</dict>
 		<key>flutter_assets/vm_snapshot_data</key>

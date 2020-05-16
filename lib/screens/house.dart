@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:neighbormart/screens/grocerylist.dart';
+import 'package:neighbormart/screens/request.dart';
 import 'dart:math';
 import "package:neighbormart/string_extension.dart";
 import "package:neighbormart/screens/chat.dart";
+import 'package:neighbormart/globals.dart' as globals;
 
 class House extends StatefulWidget {
   House({Key key, this.title}) : super(key: key);
@@ -26,7 +29,8 @@ class _HouseState extends State<House> {
     "Jewel Osco (May 1st)",
     "Walmart (May 3rd)",
     "Costco (May 2nd)",
-    "Jewel Osco (May 3rd)"
+    "Jewel Osco (May 3rd)",
+    globals.name + " (" + globals.date + ")",
   ];
   var subtitles = [
     "Tatiana Blackwell: 0.11 miles away",
@@ -39,7 +43,8 @@ class _HouseState extends State<House> {
     "Rudolph Dunn: 0.26 miles away",
     "Anita Horton: 0.28 miles away",
     "Jack Rivera: 0.30 miles away",
-    "Siddarth Patel: 0.31 miles away"
+    "Siddarth Patel: 0.31 miles away",
+    "Me"
   ];
   var images = [
     "images/i1.jpg",
@@ -52,7 +57,8 @@ class _HouseState extends State<House> {
     "images/i8.jpg",
     "images/i9.jpg",
     "images/i10.jpg",
-    "images/i11.jpeg"
+    "images/i11.jpeg",
+    "images/i12.jpg",
   ];
   var items = List<String>();
   var subbies = List<String>();
@@ -135,8 +141,7 @@ class _HouseState extends State<House> {
                       children: <Widget>[
                         ListTile(
                           leading: Icon(Icons.account_circle,
-                              color: Colors.green[300],
-                              size: 36.0),
+                              color: Colors.green[300], size: 36.0),
                           title: Text('${items[index]}'),
                           subtitle: Text('${subtitles[index]}'),
                         ),
@@ -145,18 +150,30 @@ class _HouseState extends State<House> {
                           children: <Widget>[
                             FlatButton(
                               child: const Text('REQUEST ITEMS'),
-                              onPressed: () {/* ... */},
+                              onPressed: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => Request()));
+                              },
                             ),
                             FlatButton(
                               child: const Text('OFFER ITEMS'),
-                              onPressed: () {/* ... */},
+                              onPressed: () {
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => GroceryList()));
+                              },
                             ),
                             FlatButton(
                               child: const Text('CHAT'),
                               onPressed: () {
-                                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => ChatBox()));
-                    },
+                                Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => ChatBox()));
+                              },
                             ),
                           ],
                         ),
